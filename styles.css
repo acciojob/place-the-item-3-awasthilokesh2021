@@ -4,6 +4,7 @@
   border: 2px solid black;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .item{
   width: 142px;
