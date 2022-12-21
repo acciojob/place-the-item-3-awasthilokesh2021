@@ -1,14 +1,13 @@
-.holder {
-    display: grid;
-    grid-gap: 10px 15px;
-    height:200px;
-    width:200px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-.item{
-    background-color: blueviolet;
-    height:200px;
-    width:200px;
+.holder{
+  height: 376px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
 }
-  
+.item{
+  width: 142px;
+  height: 130px;
+  background-color: aqua;
+  border: 2px solid purple;
+}
